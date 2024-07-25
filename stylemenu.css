@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.section-center{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+h1{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.menu-item{ 
+  background: white;
+  height: 555px;
+  width: 270px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+
+
+img{
+  width: 268px;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.btn-container{
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.filter-btn{
+  font-size: large;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  background: white;
+  border: 2px solid green;
+}
+.filter-btn:hover{
+  cursor: pointer;
+  background: green;
+  color: white;
+}
+
+.menu-item p, h2{
+  text-align: center;
+  padding: 10px;
+  
+}
+.about-item{height: 400px;}
+
+.menu-item button{
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  margin-left: 75px;
+  margin-right: 50px;
+  cursor: pointer;
+} 
+
+.menu-item:hover{
+  transform: scale(1.02);
+}
+

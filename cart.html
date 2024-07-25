@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecart.css">
+    <title>Cart</title>
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">Bhog</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="cart.html" class="activepage">Cart</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="container content-section">
+        
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            
+        </div>
+
+   
+        <div class="cart-total">
+            <span class="cart-total-title">TOTAL</span>
+            <span class="cart-total-price">Rs. 0</span>
+        </div>
+        <div class="pbox">
+            
+            
+            <form action="order.php" method="post">
+                 <input type="hidden" value="1" name="total" class="total">
+          
+                <button type="submit" name="submit" class="btn-purchase">PURCHASE</button>
+
+            </form>
+        
+        </div>
+        
+
+    </section>
+    
+    <script src="dup.js"></script>
+</body>
+</html>

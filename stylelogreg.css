@@ -1,0 +1,14 @@
+.container {
+    padding: 50px;
+    border: 1px solid hotpink;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+
+  }
+  
+.submit{
+  margin-top: 10px;
+} 
