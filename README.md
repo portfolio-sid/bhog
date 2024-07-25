@@ -1,5 +1,7 @@
-### Bhog - Food Delivery Website
+# [Bhog - Food Delivery Website](https://portfolio-sid.github.io/bhog/)
 Bhog is a comprehensive food delivery platform designed for a single restaurant, enabling it to receive and track user orders seamlessly. This project leverages a full-stack development approach using HTML, CSS, JavaScript, PHP, and MySQL. My primary focus was on the front-end development, creating an engaging and user-friendly interface.
+
+Click [here](https://portfolio-sid.github.io/bhog/) to view the website's front-end features.
 
 ## Features
 + Restaurant Interface: Enables the restaurant to receive and track user orders efficiently.
